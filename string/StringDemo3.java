@@ -7,16 +7,16 @@ public class StringDemo3 {
         System.out.println(" Is 'str' String empty? "+str.isEmpty());
         System.out.println("Character at index position '5' : "+str.charAt(5));
 
-        String password="capgemini";
-        String confirmPassword="Capgemini";
+        String password="Jpl";
+        String confirmPassword="jpl";
 
         System.out.println("Password and confirm password are same ?: "+password.equals(confirmPassword));
         System.out.println("Password and confirm password are same  ?: "+password.equalsIgnoreCase(confirmPassword));
 
-        String email="vikram@capgemini.com";
+        String email="vikram@jpl.com";
 
         System.out.println("email staring with 'v' ?"+ email.startsWith("p"));
-        System.out.println("email ending with 'capgemini.com' ?"+ email.endsWith("capgemini.com"));
+        System.out.println("email ending with 'jpl.com' ?"+ email.endsWith("capgemini.com"));
 
         System.out.println("Index position of 'l' is :"+str.indexOf("l"));
         System.out.println("Last Index position of 'l' is :"+str.lastIndexOf("l"));
