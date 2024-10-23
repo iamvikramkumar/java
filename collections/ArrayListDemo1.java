@@ -16,10 +16,10 @@ public class ArrayListDemo1 {
 
         al1.add(1);
         al1.add(2);
-        al1.add("Prudhvi");
+        al1.add("Vikram");
         al1.add(null);
         al1.add(1);
-        al1.add("Prudhvi");
+        al1.add("Vikram");
         al1.add(10.3);
 
         System.out.println("Array List objects :"+al1);
