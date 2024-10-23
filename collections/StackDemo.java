@@ -11,7 +11,7 @@ public class StackDemo {
     private void f1() {
         Stack stack = new Stack();
         stack.push(1);
-        stack.push("Prudhvi");
+        stack.push("Vikram");
         stack.push('A');
         stack.push(null);
         stack.push(1013.33);
@@ -25,7 +25,7 @@ public class StackDemo {
 
         System.out.println("Is stack empty?"+stack.isEmpty());
 
-        System.out.println("Object 'Prudhvi' is at offset position: "+stack.search("Prudhvi"));
+        System.out.println("Object 'Vikram' is at offset position: "+stack.search("Vikram"));
 
 
     }
