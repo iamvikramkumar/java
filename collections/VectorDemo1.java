@@ -14,7 +14,7 @@ public class VectorDemo1 {
         vector1.addElement(22.333);
         vector1.add(null);
         vector1.addElement(1);
-        vector1.add("Prudhvi");
+        vector1.add("Vikram");
         vector1.add('A');
 
         System.out.println("Vector Objects : "+vector1);
