@@ -1,4 +1,4 @@
-package p1.p2;
+package stream_api;
 
 import java.util.Optional;
 import java.util.stream.Stream;
