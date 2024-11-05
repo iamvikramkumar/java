@@ -12,12 +12,12 @@ public class JdbcConectionDemo {
 		Class.forName("org.postgresql.Driver");
 
 Connection connection = 
-DriverManager.getConnection("jdbc:postgresql://localhost:5432/capg_db", "postgres",
+DriverManager.getConnection("jdbc:postgresql://localhost:5432/company_db", "postgres",
 		"elephant");
 
 		Statement st = connection.createStatement();
 
-		int updateStatus = st.executeUpdate("insert into employ values(1001,'arun',45000.25)");
+		int updateStatus = st.executeUpdate("insert into employees values(1001,'arun',45000.25)");
 
 		if (updateStatus > 0) {
 			System.out.println("row inserted successfully");
