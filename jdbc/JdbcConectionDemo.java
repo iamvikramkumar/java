@@ -1,4 +1,4 @@
-package com.capg.demo;
+package jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
